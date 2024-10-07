@@ -20,19 +20,30 @@ body {
   border: none;
   outline: none;
   border-radius: 10px;
-  color: var(--color-white);
   font-weight: 500;
   font-size: 15px;
-  transition: color var(--transition);
+  transition: all var(--transition);
   cursor: pointer;
-  background-color: transparent;
-  border: 1px solid var(--color-white);
+  color: var(--color-white);
+  text-transform: uppercase;
 }
 
-.button-secondary:hover,
-.button-primary:hover {
+.button-primary {
   background-color: var(--color-sand);
-  border: none;
+}
+
+.button-primary:hover {
+  background-color: var(--color-coffemeet);
+}
+
+.button-secondary {
+  border: 1px solid var(--color-white);
+  background-color: transparent;
+}
+
+.button-secondary:hover {
+  background-color: var(--color-white);
+  color: var(--color-dark);
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -93,14 +104,15 @@ body {
   height: 21px;
 }
 
-.lower-menu-img {
-  margin-left: 224px;
-  margin-right: 437px;
-}
-
 .lower-menu-img-item {
   width: 58px;
   height: 54px;
+}
+
+.lower-menu-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 224px;
 }
 
 .lower-menu-icons {
@@ -138,7 +150,8 @@ body {
 }
 
 .intro-text-title {
-  width: 571px;
+  width: 100%;
+  max-width: 571px;
   height: 152px;
   font-size: 60px;
   font-weight: 900;

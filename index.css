@@ -1,0 +1,7 @@
+@import url(./styles/fonts.css);
+@import url(./styles/var.css);
+@import url(./styles/normalize.css);
+
+
+/* DESKTOP VERSION CSS FILE */
+@import url(./styles/desktop.css);

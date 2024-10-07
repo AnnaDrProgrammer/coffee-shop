@@ -1,0 +1,15 @@
+:root {
+  --font-family-primary: "Jost", sans-serif;
+  --color-dark: #020204;
+
+  --color-panel: #14141d;
+  --color-panel-hover: #22222f;
+  --color-sand: #c7a17a;
+  --color-coffemeet: #f8dabf;
+  --color-white: #ffffff;
+  --color-panel-text: #dfdfdf;
+  --color-light-gray: #818181;
+  --color-red: red;
+
+  --transition: 0.3s;
+}
